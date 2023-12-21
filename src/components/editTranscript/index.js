@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import styles from "./editTranscript.module.css";
 import { Button } from "@mui/material";
-import ModeEditIcon from "@mui/icons-material/ModeEdit";
 import { toast } from "react-toastify";
 
 const EditTranscriptComp = () => {

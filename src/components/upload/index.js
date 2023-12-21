@@ -44,7 +44,6 @@ const Upload = () => {
         const response = await axios.get(
           `/project/getFile?projectName=${projectName}`
         );
-        console.log(response.data.files);
         setFiles(response.data.files);
       } catch (error) {
         console.error("Error fetching files:", error);
