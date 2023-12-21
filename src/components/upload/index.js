@@ -51,7 +51,7 @@ const Upload = () => {
     };
 
     fetchFiles();
-  }, []);
+  }, [projectName]);
 
   const handleClickOpen = () => {
     setOpen(true);
