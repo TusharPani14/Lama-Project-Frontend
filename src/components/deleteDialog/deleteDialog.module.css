@@ -1,0 +1,16 @@
+.heading {
+    font-family: Poppins !important;
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+}
+
+.desc {
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 16.643px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    letter-spacing: 0.19px;
+}

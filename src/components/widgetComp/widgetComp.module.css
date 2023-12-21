@@ -1,0 +1,113 @@
+.main {
+    width: 73%;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.heading {
+    color: #7E22CE;
+    font-family: Roboto;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.selectedTab {
+    font-family: Roboto;
+    font-size: 23px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: normal;
+}
+
+.notSelectedTab {
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 23px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+}
+
+.formHeading {
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.formFlex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.singleInput {
+    margin-right: 20px;
+}
+
+.singleCheck {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.checkBox {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.hr {
+    height: 5px;
+}
+
+.subHeading {
+    color: #7E22CE;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.button {
+    width: 200px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #7E22CE !important;
+    margin-top: 20px !important;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16.8px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+}
+
+@media (max-width: 540px) {
+    .main {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .heading {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .selectedTab,
+    .notSelectedTab,
+    .formHeading {
+        font-size: 20px !important;
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,111 @@
+.heading {
+    color: #7e22ce;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main {
+    width: 70%;
+    margin: 40px;
+    margin-left: auto;
+}
+
+.uploadTypes {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.singleUploadType {
+    width: 350px;
+    height: 120px;
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: #999;
+    border-radius: 26.17px;
+    border: 1.19px solid #999;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06), 1.19px 2.379px 5.948px 0px rgba(0, 0, 0, 0.06), 4.758px 9.516px 10.706px 0px rgba(0, 0, 0, 0.05), 10.706px 21.412px 14.274px 0px rgba(0, 0, 0, 0.03), 19.032px 38.065px 16.653px 0px rgba(0, 0, 0, 0.01), 29.738px 58.287px 19.032px 0px rgba(0, 0, 0, 0.00);
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.06)) drop-shadow(1px 2px 5px rgba(0, 0, 0, 0.06)) drop-shadow(4px 8px 9px rgba(0, 0, 0, 0.05)) drop-shadow(9px 18px 12px rgba(0, 0, 0, 0.03)) drop-shadow(16px 32px 14px rgba(0, 0, 0, 0.01)) drop-shadow(25px 49px 16px rgba(0, 0, 0, 0.00));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.uploadTypeText {
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 26.643px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.061px;
+    letter-spacing: 0.19px;
+    margin-left: 30px;
+}
+
+.tableContent {
+    color: #3C3C3C !important;
+    font-family: Roboto;
+    font-size: 18.643px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 33.061px;
+    letter-spacing: 0.19px;
+}
+
+.tableHeading {
+    color: #3C3C3C !important;
+    font-family: Roboto;
+    font-size: 20.643px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 33.061px;
+    /* 124.09% */
+    letter-spacing: 0.19px;
+}
+
+@media (max-width: 540px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .main {
+        width: 90%;
+        margin: 20px;
+        margin-left: auto;
+    }
+
+    .uploadTypes {
+        justify-content: center;
+    }
+
+    .singleUploadType {
+        width: 250px;
+        height: 90px;
+    }
+
+    .uploadTypeText {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .tableContent {
+        font-size: 16px !important;
+    }
+
+    .tableHeading {
+        font-size: 18px !important;
+    }
+    .rssIcon{
+        width: 65px;
+    }
+}

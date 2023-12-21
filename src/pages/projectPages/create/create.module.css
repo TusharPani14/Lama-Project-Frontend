@@ -1,0 +1,152 @@
+.heading {
+  color: #7e22ce;
+  font-family: Roboto;
+  font-size: 60.411px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+
+.img {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.desc {
+  color: #838383;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 78%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.iconsArea {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  width: 100px;
+}
+
+.backToHome {
+  display: flex;
+  border-radius: 35.323px;
+  border: 0.75px solid #999;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06),
+    0.75px 1.501px 3.752px 0px rgba(0, 0, 0, 0.06),
+    3.001px 6.003px 6.753px 0px rgba(0, 0, 0, 0.05),
+    6.753px 13.506px 9.004px 0px rgba(0, 0, 0, 0.03),
+    12.005px 24.01px 10.504px 0px rgba(0, 0, 0, 0.01),
+    18.758px 36.766px 12.005px 0px rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.backToHomeDesc {
+  color: #3c3c3c;
+  font-family: Roboto;
+  font-size: 20.999px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.icon2 {
+  margin-right: 7px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.button {
+  border-radius: 12.89px;
+  background: #211935;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  width: 28%;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.buttonContent {
+  color: #f8f8f8;
+  font-family: Roboto;
+  font-size: 35.28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+
+  .container {
+    margin-bottom: 30px;
+  }
+
+  .img {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .desc {
+    font-size: 18px;
+    width: 90%;
+    margin-top: 15px;
+  }
+
+  .icons {
+    margin-bottom: 10px;
+  }
+
+  .backToHome {
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+  }
+
+  .backToHomeDesc {
+    display: none;
+  }
+
+  .icon2 {
+    margin-right: 5px;
+    margin-top: 2px;
+  }
+
+  .button {
+    width: 50%;
+    margin-top: 20px;
+    padding: 8px;
+  }
+
+  .buttonContent {
+    font-size: 22px;
+    margin-left: 10px;
+  }
+}

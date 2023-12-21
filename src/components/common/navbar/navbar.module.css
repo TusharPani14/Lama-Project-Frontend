@@ -1,0 +1,27 @@
+/* navbar.css */
+.logo {
+  width: 170px;
+  height: 45px;
+}
+
+.navbar {
+  padding: 15px 25px 0 25px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.loginButton {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px !important;
+  color: white !important;
+  border-radius: 12px !important;
+  border: 1.19px solid #999 !important;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06),
+    1.19px 2.379px 5.948px 0px rgba(0, 0, 0, 0.06),
+    4.758px 9.516px 10.706px 0px rgba(0, 0, 0, 0.05),
+    10.706px 21.412px 14.274px 0px rgba(0, 0, 0, 0.03),
+    19.032px 38.065px 16.653px 0px rgba(0, 0, 0, 0.01),
+    29.738px 58.287px 19.032px 0px rgba(0, 0, 0, 0);
+  background-color: #7e22ce !important;
+}

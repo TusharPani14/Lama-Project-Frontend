@@ -1,0 +1,17 @@
+.heading {
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 40px !important;
+    font-style: normal;
+    font-weight: 900 !important;
+    line-height: normal;
+}
+
+.textField {
+    width: 500px !important;
+    margin-bottom: 10px !important;
+}
+
+.subHeading {
+    color: black !important;
+}

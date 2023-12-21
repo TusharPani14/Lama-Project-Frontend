@@ -1,0 +1,9 @@
+.flexSection {
+    display: flex;
+}
+
+@media only screen and (max-width: 540px) {
+    .flexSection {
+        flex-direction: column;
+    }
+}

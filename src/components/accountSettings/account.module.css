@@ -1,0 +1,107 @@
+.main {
+    width: 70%;
+    margin: 40px;
+    margin-left: auto;
+}
+
+.heading {
+    color: #7E22CE;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.flexSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.formHeading {
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.subscription {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30.861px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 15.827px;
+    padding: 15px;
+    border: 0.719px solid #7E22CE;
+    background: linear-gradient(90deg, #7E22CE 0.95%, #460281 99.9%);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06), 0.719px 1.439px 3.597px 0px rgba(0, 0, 0, 0.06), 2.878px 5.755px 6.475px 0px rgba(0, 0, 0, 0.05), 6.475px 12.95px 8.633px 0px rgba(0, 0, 0, 0.03), 11.511px 23.022px 10.072px 0px rgba(0, 0, 0, 0.01), 17.986px 35.252px 11.511px 0px rgba(0, 0, 0, 0.00);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+
+.upgradeButton {
+    color: #7E22CE !important;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20.24px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 31.32px;
+    letter-spacing: 0.18px;
+    background-color: white !important;
+}
+
+.cancel {
+    color: #FF274C;
+    font-family: Roboto;
+    font-size: 25.24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.32px;
+    letter-spacing: 0.18px;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 540px) {
+    .main {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .flexSection{
+        flex-direction: column;
+    }
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .formHeading {
+        font-size: 22px;
+    }
+
+    .subscription {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .upgradeButton {
+        font-size: 18px !important;
+    }
+
+    .cancel {
+        font-size: 20px;
+    }
+}

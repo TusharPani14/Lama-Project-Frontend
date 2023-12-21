@@ -1,0 +1,151 @@
+.heading {
+    color: #7E22CE;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main {
+    width: 69vw;
+    margin: 40px;
+    margin-left: auto;
+  }
+
+.headingFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    width: 290px;
+    justify-content: space-between;
+}
+
+.discardButton {
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.saveButton {
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.editButton {
+    display: flex;
+    padding: 11.391px 27.339px 11.391px 18.226px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.113px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 4.556px;
+    background: var(--m-3-state-layers-light-on-primary-opacity-008, rgba(255, 255, 255, 0.08));
+    border-radius: 113.912px;
+    background: #3C3C3C;
+    box-shadow: 0px 1.139px 3.417px 1.139px rgba(0, 0, 0, 0.15), 0px 1.139px 2.278px 0px rgba(0, 0, 0, 0.30);
+    color: var(--M3-sys-light-on-primary, #FFF);
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.textArea {
+    border-radius: 20px;
+    border: 2px solid #7E22CE;
+    padding: 20px;
+}
+
+.fileName {
+    color: #7E22CE;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 149.187%;
+    margin-top: 10px;
+}
+
+.fileDesc {
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 149.187%;
+}
+
+.textField {
+    color: #555;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    vertical-align: top;
+    resize: none;
+    overflow-y: auto;
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 149.187%;
+}
+
+@media (max-width: 540px) {
+    .main {
+        width: 90vw;
+        margin: 20px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .buttons {
+        width: 90%;
+    }
+
+    .discardButton {
+        width: 45%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .saveButton {
+        width: 45%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .editButton {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .textArea {
+        padding: 15px;
+    }
+
+    .fileName {
+        font-size: 25px;
+    }
+
+    .fileDesc {
+        font-size: 20px;
+    }
+
+    .textField {
+        font-size: 20px;
+    }
+}
