@@ -24,7 +24,7 @@ export default function CreateDialog({
             const userId = userDetails._id;
             console.log(userDetails);
     
-            const response = await axios.post('/project/create', {
+            const response = await axios.post('https://lama-project-backend.vercel.app/project/create', {
                 name: productName,
                 userId: userId,
             });

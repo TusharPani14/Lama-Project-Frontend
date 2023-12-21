@@ -22,7 +22,7 @@ const DisplayProjects = () => {
     const userId = userDetails ? userDetails._id : null;
     if (userId) {
       axios
-        .get(`/project/get?userId=${userId}`)
+        .get(`https://lama-project-backend.vercel.app/project/get?userId=${userId}`)
         .then((response) => {
           console.log(response.data);
           setProjects(response.data);

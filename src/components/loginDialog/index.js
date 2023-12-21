@@ -22,7 +22,7 @@ export default function LoginDialog({
 
     const handleSignup = () => {
         setLoading(true);
-        axios.post(`/user/register`, { email, password })
+        axios.post(`https://lama-project-backend.vercel.app/user/register`, { email, password })
             .then(response => {
                 toast.success("Signup successful!")
                 console.log("Signup successful!", response.data);

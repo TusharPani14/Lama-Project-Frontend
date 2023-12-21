@@ -75,7 +75,7 @@ const WidgetComp = () => {
 
   const handleSaveGeneralWidget = async () => {
     try {
-      const response = await axios.post("/widget/generalWidget", {
+      const response = await axios.post("https://lama-project-backend.vercel.app/widget/generalWidget", {
         chatbotName,
         welcomeMessage,
         inputPlaceholder,
@@ -94,7 +94,7 @@ const WidgetComp = () => {
   const handleSaveDisplayWidget = async () => {
     const widgetId = generalWidget._id;
     try {
-      const response = await axios.post("/widget/displayWidget", {
+      const response = await axios.post("https://lama-project-backend.vercel.app/widget/displayWidget", {
         widgetId,
         primaryColor,
         fontColor,
@@ -125,7 +125,7 @@ const WidgetComp = () => {
       formData.append("distanceFromBottom", distanceFromBottom);
       formData.append("horizontalDistance", horizontalDistance);
 
-      const response = await axios.post("/widget/chatIcon", formData, {
+      const response = await axios.post("https://lama-project-backend.vercel.app/widget/chatIcon", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

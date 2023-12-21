@@ -36,7 +36,7 @@ export default function UploadDialog({
         try {
             const { name, description } = fileDetails;
 
-            await axios.post('/project/uploadFile', {
+            await axios.post('https://lama-project-backend.vercel.app/project/uploadFile', {
                 name,
                 description,
                 projectName 

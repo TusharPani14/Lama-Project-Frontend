@@ -22,7 +22,7 @@ const DeleteDialog = ({
 
   const deleteFile = async () => {
     try {
-      const response = await axios.post("/project/deleteFile", {
+      const response = await axios.post("https://lama-project-backend.vercel.app/project/deleteFile", {
         projectName: projectName,
         fileId: fileId,
       });

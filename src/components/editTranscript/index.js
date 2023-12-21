@@ -14,7 +14,7 @@ const EditTranscriptComp = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`/project/getSingleFile`, {
+        const response = await axios.get(`https://lama-project-backend.vercel.app/project/getSingleFile`, {
           params: {
             projectName: projectName,
             fileId: fileId,
@@ -47,7 +47,7 @@ const EditTranscriptComp = () => {
         fileDesc: editedDescription,
       };
 
-      const response = await axios.put("/project/editFile", updatedFile);
+      const response = await axios.put("https://lama-project-backend.vercel.app/project/editFile", updatedFile);
       toast.success(response.data.message);
       console.log("File updated:", response.data);
 

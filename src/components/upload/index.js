@@ -42,7 +42,7 @@ const Upload = () => {
     const fetchFiles = async () => {
       try {
         const response = await axios.get(
-          `/project/getFile?projectName=${projectName}`
+          `https://lama-project-backend.vercel.app/project/getFile?projectName=${projectName}`
         );
         setFiles(response.data.files);
       } catch (error) {
